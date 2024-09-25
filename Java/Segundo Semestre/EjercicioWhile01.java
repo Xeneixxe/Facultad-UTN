@@ -21,10 +21,9 @@ public class EjercicioWhile01 {
         }
         for (var contando = 0; contador < 7; contador++) {
             if (contando % 2 == 1) {
-                continue; //Vamos a la siguiente iteración
+                continue; // Vamos a la siguiente iteración
             }
             System.out.println("contando =" + contando);
         }
-    }
     }
 }
