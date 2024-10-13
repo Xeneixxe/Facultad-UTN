@@ -98,18 +98,19 @@ desplegarNombres(nombres2)
 desplegarNombres("Carla")
 # desplegarNombres(10, 11)#No son objetos iterables
 desplegarNombres((10, 11))  # La convertimos a una tupla
-desplegarNombres([22, 55]) #Lo convertimos a un lista 
+desplegarNombres([22, 55])  # Lo convertimos a un lista
 
 
-#Funciones Recursivas
-numero = int(input('Digite un numero:'))
+# Funciones Recursivas
+numero = int(input("Digite un numero:"))
+
 
 def factorial(numero):
-    if numero == 1 #Caso Base
+    if numero == 1:  # Caso Base
         return 1
-    else: 
-        return numero * factorial(numero-1) #Caso Recursivo
+    else:
+        return numero * factorial(numero - 1)  # Caso Recursivo
 
 
-resultado = factorial(5) #lo acemos en codigo duro
-print(f'El factorial del número 5 es (resultado)')
+resultado = factorial(5)  # lo acemos en codigo duro
+print(f"El factorial del número 5 es (resultado)")
