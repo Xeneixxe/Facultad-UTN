@@ -3,9 +3,9 @@
 <template>
   <nav class="navbar">
     <ul>
-      <li><a href="#acerca">"Acerca de mi"</a></li>
-      <li><a href="#contacto">"Formas de Contacto"</a></li>
-      <li><a href="#proyecto">"Proyectos"</a></li>
+      <li><a href="#acerca">Acerca de mi</a></li>
+      <li><a href="#contacto">Proyectos</a></li>
+      <li><a href="#proyecto">Contacto</a></li>
     </ul>
   </nav>
 </template>
@@ -16,8 +16,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000;
+  background-color: #00000091;
   padding: 1rem;
+  border-bottom: 1px solid #333;
 }
 ul {
   display: flex;
