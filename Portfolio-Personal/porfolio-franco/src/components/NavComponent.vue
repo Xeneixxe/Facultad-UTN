@@ -4,8 +4,8 @@
   <nav class="navbar">
     <ul>
       <li><a href="#acerca">Acerca de mi</a></li>
-      <li><a href="#contacto">Proyectos</a></li>
-      <li><a href="#proyecto">Contacto</a></li>
+      <li><a href="#contacto">Formas de Contacto</a></li>
+      <li><a href="#proyecto">Proyectos</a></li>
     </ul>
   </nav>
 </template>
@@ -16,9 +16,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #00000091;
+  height: 80px;
+  background: linear-gradient(to top, #22222275, #050505d2);
   padding: 1rem;
   border-bottom: 1px solid #333;
+  z-index: 99;
 }
 ul {
   display: flex;
