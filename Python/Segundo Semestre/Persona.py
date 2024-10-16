@@ -1,13 +1,17 @@
 class Persona:  # Creamos una clase
 
-    def __init__(self, nombre, apellido, edad, etc):
+    def __init__(self, nombre, apellido, dni, edad, *args, **kwargs):
         self.nombre = nombre
         self.apellido = apellido
         self.edad = edad
-        self.etc = etc
+        self.args = args
+        self.wkwargs = kwargs
+        self._dni = dni
 
     def mostrar_detalle(self):  # self es igual a this
-        print(f"Persona: {self.nombre}{self.apellido}{self.edad}")
+        print(
+            f"La clase Personatiene los siguientes datos: {self.nombre}{self.apellido}{self._dni}{self.edad}, la direccion es: {self.args}, los datos importantes son: {self.wkwargs}"
+        )
 
 
 persona1 = Persona("Franco", "Morales", 22)  # Necesitamos enviar argumentos
@@ -45,6 +49,51 @@ persona2.mostrar_detalle()
 # Persona.mostrar_detalle(persona1) #Debemos pasarle una referencia para el self o dará error
 
 persona1.telefono = "12445234"
-print(f'Este es el telefono de{persona1.nombre} {persona1.telefono}')# Hemos creado un atrinuto de un objeto
-      
+print(
+    f"Este es el telefono de{persona1.nombre} {persona1.telefono}"
+)  # Hemos creado un atrinuto de un objeto
+
 # print(persona2.telefono) el objeto persona2 no tiene este atributo da error
+
+persona3 = Persona(
+    "Rogelio",
+    "Romero",
+    22,
+    "Telefono",
+    "261546456",
+    "Calle Lopez",
+    823,
+    "Manzana",
+    77,
+    "Casa",
+    18,
+    Altura=1.83,
+    Peso=105,
+    CFavorito="Azul",
+    Auto="Citroen",
+    Modelo=2021,
+)
+persona3.mostrar_detalle()
+persona4 = Persona(
+    "Roscoldo",
+    "Rumperto",
+    15,
+    "Telefono",
+    "1274298323478",
+    "Jaureche",
+    175,
+    "Manzana",
+    15,
+    "Casa",
+    108,
+    Altura=1.46,
+    Peso=65,
+    CFavorito="Negro",
+    Auto="Wolswagen",
+    Modelo=2010,
+)
+
+#print(persona1._dni)# Esto no se debe utilizr (esta encapsulado), esto dice que lo desconocemos python 
+
+
+#persona3.__nombre# Esta totalmente encapsulado
