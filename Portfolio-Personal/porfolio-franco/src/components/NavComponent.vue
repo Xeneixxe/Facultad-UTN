@@ -2,13 +2,29 @@
 
 <template>
   <nav class="navbar">
-    <ul>
-      <li><a href="#acerca">Acerca de mi</a></li>
-      <li><a href="#contacto">Formas de Contacto</a></li>
-      <li><a href="#proyecto">Proyectos</a></li>
-    </ul>
+    <div class="navbar-menu">
+      <ul>
+        <a
+          v-for="nav in navegacion"
+          :key="nav.nombre"
+          href="nav.enlace"
+          class="nav.item"
+          >{{ nav.nombre }}</a
+        >
+      </ul>
+    </div>
   </nav>
 </template>
+
+<script setup>
+import { ref } from 'vue'
+const navegacion = ref([
+  { id: 1, nombre: 'Educacion', enlace: '#educacion' },
+  { id: 2, nombre: 'Experiencia', enlace: '#experiencia' },
+  { id: 3, nombre: 'Proyectos', enlace: '#proyectos' },
+  { id: 4, nombre: 'Habilidades', enlace: '#habilidades' },
+])
+</script>
 
 <style scoped>
 .navbar {
@@ -16,7 +32,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 60px;
   background: linear-gradient(to top, #22222275, #050505d2);
   padding: 1rem;
   border-bottom: 1px solid #333;

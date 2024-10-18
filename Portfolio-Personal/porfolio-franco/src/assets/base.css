@@ -35,3 +35,7 @@ body {
   height: 100%;
   z-index: -1;
 }
+
+li{
+  list-style: none; 
+}

@@ -1,13 +1,26 @@
 <script setup>
 import NavComponent from './components/NavComponent.vue'
-import FooterComponent from './components/FooterComponent.vue'
-import AboutComponent from './components/AboutComponent.vue'
+import DatosPersonales from './components/DatosPersonales.vue'
+import Educacion from './components/Educacion.vue'
 </script>
 
 <template>
-  <NavComponent />
-  <AboutComponent />
-  <FooterComponent />
+  <header>
+    <!-- Barra de navegacion -->
+    <NavComponent />
+    <!-- Datos personales -->
+    <DatosPersonales />
+  </header>
+  <main>
+    <section id="educacion">
+      <h2>Educacion-Cursos</h2>
+      <Educacion />
+    </section>
+    <section id="experiencia"><h2>Experiencia</h2></section>
+    <section id="proyectos"><h2>Proyectos</h2></section>
+    <section id="habilidades"><h2>Habilidades</h2></section>
+    <section id="intereses"><h2>intereses</h2></section>
+  </main>
 </template>
 
 <style scoped></style>
