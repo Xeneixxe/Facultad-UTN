@@ -1,4 +1,4 @@
-<script setup>
+<script lang="js" setup>
 import { ref } from 'vue'
 const fechaColor = ref([])
 /*Esta es otra forma de utilizar el arreglo, con el metodo value*/

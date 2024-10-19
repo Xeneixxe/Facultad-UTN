@@ -1,5 +1,5 @@
 :root {
-  --color-texto-primario: #fff;
+  --color-texto-primario: #c91818;
   --color-fondo-tarjeta: tomato;
 }
 
@@ -27,15 +27,15 @@ body {
     'Open Sans',
     'Helvetica Neue',
     sans-serif;
-  background-image: url('/src/assets/FondoPortfolio.webp');
-  background-size: cover;
-  background-position: center;
+  background-image: url('');
+  background-size: center;
+  background-position: none;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   z-index: -1;
 }
 
-li{
-  list-style: none; 
+li {
+  list-style: none;
 }
