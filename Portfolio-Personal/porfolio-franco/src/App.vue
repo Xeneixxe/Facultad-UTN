@@ -1,23 +1,22 @@
 <script setup>
-import IpComponent from './components/IpComponent.vue'
+import DataComponente from './components/DataComponente.vue'
 import NavComponent from './components/NavComponent.vue'
 import DatosPersonales from './components/DatosPersonales.vue'
 import EducacionComponent from './components/EducacionComponent.vue'
 import ProyectosComponente from './components/ProyectosComponente.vue'
+import FooterComponente from './components/FooterComponente.vue'
 </script>
 
 <template>
   <header>
     <!-- Barra de navegacion -->
     <NavComponent />
-    <IpComponent />
     <!-- Datos personales -->
     <DatosPersonales />
   </header>
   <main>
     <section id="ip">
-      <h2>Bienvenido</h2>
-      <IpComponent />
+      <h2>Bienvenido desde<DataComponente /></h2>
     </section>
     <section id="educacion">
       <h2>Educacion-Cursos</h2>
@@ -31,7 +30,7 @@ import ProyectosComponente from './components/ProyectosComponente.vue'
     <section id="habilidades"><h2>Habilidades</h2></section>
     <section id="intereses"><h2>intereses</h2></section>
   </main>
-  -
+  <FooterComponente />
 </template>
 
 <style scoped></style>
