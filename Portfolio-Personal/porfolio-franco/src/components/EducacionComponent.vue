@@ -4,9 +4,9 @@ const fechaColor = ref([])
 /*Esta es otra forma de utilizar el arreglo, con el metodo value*/
 fechaColor.value = [
   { color: '#41516c' },
-  { color: '#FBCA3E' },
-  { color: '#E24A68' },
-  { color: '#1B5F8C' },
+  { color: '#0A79B0' },
+  { color: '#0A79B0' },
+  { color: '#004173' },
   { color: '#4CADAD' },
 ]
 /*Esta es la forma de utilizar el arreglo, sin el metodo value*/
@@ -80,7 +80,7 @@ const educacion = ref([
 /* Estilo para el cuerpo de la página */
 body {
   --color: rgba(30, 30, 30); /* Variable para el color de texto */
-  --bgColor: rgba(245, 245, 245); /* Variable para el color de fondo */
+  --bgColor: rgb(31, 250, 232); /* Variable para el color de fondo */
   min-height: 100vh; /* Asegura que el cuerpo ocupe al menos el 100% de la altura de la ventana */
   display: grid; /* Utiliza el modelo de caja de cuadrícula */
   align-content: center; /* Centra verticalmente el contenido dentro de la cuadrícula */

@@ -3,7 +3,7 @@ const title = 'Franco Javier Morales'
 const descripcion = 'Estudiante de Programacion'
 const residencia = 'San Rafael, Mendoza Argentina'
 const presentacion =
-  'Bienvenido a mi portfolio personal, en este encontraran mi trabajos realizadone en la U.T.N'
+  'Bienvenido a mi portfolio personal, en este encontraran mi trabajos realiza en la U.T.N'
 const redesSociales = [
   {
     id: 1,
@@ -54,16 +54,18 @@ const telefono = +542604812458
 <style scoped>
 h1 {
   font-size: 2.5rem;
+  gap: 8px;
 }
 
 p {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  gap: 8px;
 }
 
 .card {
-  background-color: rgb(28, 41, 52);
+  background-color: rgb(71, 66, 80);
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
@@ -77,13 +79,14 @@ p {
   padding: 0;
   margin: 0;
   text-align: center;
+  gap: 12px;
 }
 
 .icon-redsocial {
   align-items: center;
   background-color: aliceblue;
   border-radius: 50%;
-  padding: 2px;
+  padding: 5px;
   margin: 5px;
   box-shadow: 0 0 5px rgba(95, 124, 205, 0.934);
 }
