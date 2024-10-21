@@ -5,21 +5,18 @@
     <div class="proyecto">
       <img src="/src/assets/Fondo2.webp" alt="Proyecto 1" />
       <div class="proyecto-info">
-        <h3>Ecomerce</h3>
-        <p>
-          Creé una plataforma de comercio electrónico que incrementó las ventas
-          en un 35% durante el primer año.
-        </p>
+        <h3>Terreneitor Calculadora</h3>
+        <p>Calculadora de materiales realizado en mi primer año en la U.T.N.</p>
         <div class="proyecto-links">
           <a
-            href="https://proyecto1.com"
+            href="https://github.com/Xeneixxe/final-pseint"
             class="btn-ver-mas"
             target="_blank"
             rel="noopener noreferrer"
             >Ver Proyecto</a
           >
           <a
-            href="https://github.com/usuario/proyecto1"
+            href="https://github.com/Xeneixxe/final-pseint/blob/master/Calculadora_Materiales_TERRENEITOR2.psc"
             class="github-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -31,21 +28,18 @@
     <div class="proyecto">
       <img src="/src/assets/Fondo2.webp" alt="Proyecto 1" />
       <div class="proyecto-info">
-        <h3>Ecomerce</h3>
-        <p>
-          Creé una plataforma de comercio electrónico que incrementó las ventas
-          en un 35% durante el primer año.
-        </p>
+        <h3>Proyecto Final Java</h3>
+        <p>Se encuentra en proceso el trabajo final para el primer año</p>
         <div class="proyecto-links">
           <a
-            href="https://proyecto1.com"
+            href="https://github.com/PowerSystem2024/final_java_double_commit"
             class="btn-ver-mas"
             target="_blank"
             rel="noopener noreferrer"
             >Ver Proyecto</a
           >
           <a
-            href="https://github.com/usuario/proyecto1"
+            href="https://github.com/PowerSystem2024/final_java_double_commit/blob/main/README.md"
             class="github-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -84,21 +78,6 @@
 </template>
 
 <style scoped>
-/* .galeria {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    background-image: url('/src/assets/fondo-proyectos.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
-
-/* Estilos Fondo Animado de Css de la galería */
-/* La clase 'galeria' es el contenedor principal de la galería de proyectos */
 .galeria {
   /* Establece el ancho de la galería al 100% del contenedor padre */
   width: 100%;
