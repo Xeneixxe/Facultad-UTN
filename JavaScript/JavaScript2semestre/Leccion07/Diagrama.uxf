@@ -1,0 +1,35 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>30</x><y>430</y><w>210</w><h>120</h></coordinates><panel_attributes>Empleado
+--
+_idEmpleado: Long
+_sueldo: number
+--
+getidEmpleado(): number
+getSueldo(): number
+setSueldo(number)
+toString</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>230</y><w>260</w><h>220</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>240;10;240;80;10;80;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>0</y><w>210</w><h>240</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+_nombre: String
+_apellido: String
+--
+get nombre()
+set nombre(String)
+get apellido()
+set apellido(String)
+--
+getidPersona(): number
+getNombre(): string
+setNombre(string)
+getApellido():  string
+setApellido(string)
+getEdad(): number
+getEdad(string)
+to String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>430</y><w>210</w><h>120</h></coordinates><panel_attributes>Cliente
+--
+_idCliente: number
+_fechaRegistro: Date
+--
+getidCliente
+getFechaRegistro(): Date
+setFechaRegistro(Date)
+toString()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>240</y><w>270</w><h>210</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;10;10;70;250;70;250;190</additional_attributes></element></diagram>

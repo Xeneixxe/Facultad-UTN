@@ -23,7 +23,12 @@ const redesSociales = [
     src: '/src/assets/instagram.png',
     url: 'https://www.instagram.com/franco.morales.12/',
   },
-  { id: 4, name: 'Curriculum', src: '/src/assets/curriculum.png', url: '' },
+  {
+    id: 4,
+    name: 'Curriculum',
+    src: '/src/assets/curriculum.png',
+    url: '/assets/FrancoJavierMorales.pdf',
+  },
 ]
 const telefono = +542604812458
 </script>
