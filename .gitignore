@@ -35,3 +35,4 @@ yarn-error.log*
 # vercel
 .vercel
 /Java/Segundo Semestre/Leccion 1/Leccion1/target/
+/Java/Segundo Semestre/CicloWhile/nbproject/private/
