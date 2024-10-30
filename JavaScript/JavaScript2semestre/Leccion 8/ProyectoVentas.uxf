@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>680</x><y>60</y><w>210</w><h>130</h></coordinates><panel_attributes>Ventas Test
+--
+Esto no es una clase es una clase.
+Es la prueba de creación
+de objetos, Producto y Ordenn 
+--
+Responsabilidades
+--Ejecutar la prueba de la  aplicación
+de Ventas</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>100</y><w>200</w><h>40</h></coordinates><panel_attributes>lt=&lt;.&gt;
+&lt;&lt;someStereotype&gt;&gt;</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>40</y><w>210</w><h>200</h></coordinates><panel_attributes>Orden
+--
+idOrden: number
+productos[]: Producto
+contadorProductosAgregados: number
+MAX PRODUCTOS number = 5
+--
+Orden()
+agregarProductos(producto)
+calcularTotal(): number
+mostrarOrden()
+--
+Responsabilidades
+--Crear Objetos Orden
+--Administrar los productos en una orden</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>320</y><w>210</w><h>190</h></coordinates><panel_attributes>Producto
+--
+idProducto: number
+nombre: string
+precio: number
+contadorProductos: number
+--
+Producto()
+getidProducto(): number
+getNombre(): string
+setNombr(nombre)
+getPrecio(): number
+setPrecio(precio)
+toString): string
+--
+Responsabilidades
+--Crear objetos de tipo  Producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>230</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>
