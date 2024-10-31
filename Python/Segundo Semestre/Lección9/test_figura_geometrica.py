@@ -5,3 +5,10 @@ cuadrado1 = Cuadrado(5, 'Azul')
 print(cuadrado1.ancho)
 print(cuadrado1.alto)
 print(f'Cálculo del área del cuadrado:{cuadrado1.calcular_area()}')
+
+
+#MRO = method resolution order
+print(Cuadrado.mro())
+
+
+print(cuadrado1)
