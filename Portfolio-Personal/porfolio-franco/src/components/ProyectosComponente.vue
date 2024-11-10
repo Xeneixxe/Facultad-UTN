@@ -28,7 +28,7 @@
     <div class="proyecto">
       <img src="/src/assets/Fondo2.webp" alt="Proyecto 1" />
       <div class="proyecto-info">
-        <h3>Proyecto Final Java</h3>
+        <h3>Proyecto Final Segundo Spreen</h3>
         <p>Se encuentra en proceso el trabajo final para el primer año</p>
         <div class="proyecto-links">
           <a
@@ -51,11 +51,8 @@
     <div class="proyecto">
       <img src="/src/assets/Fondo2.webp" alt="Proyecto 1" />
       <div class="proyecto-info">
-        <h3>Ecomerce</h3>
-        <p>
-          Creé una plataforma de comercio electrónico que incrementó las ventas
-          en un 35% durante el primer año.
-        </p>
+        <h3>Proyecto Segundo Spreen</h3>
+        <p>Creación de una aplicació de gestio, para un gimnasio.</p>
         <div class="proyecto-links">
           <a
             href="https://proyecto1.com"
@@ -65,7 +62,7 @@
             >Ver Proyecto</a
           >
           <a
-            href="https://github.com/usuario/proyecto1"
+            href="https://github.com/PowerSystem2024/final_java_double_commit"
             class="github-link"
             target="_blank"
             rel="noopener noreferrer"

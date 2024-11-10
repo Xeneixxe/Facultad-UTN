@@ -5,6 +5,8 @@ import DatosPersonales from './components/DatosPersonales.vue'
 import EducacionComponent from './components/EducacionComponent.vue'
 import ProyectosComponente from './components/ProyectosComponente.vue'
 import FooterComponente from './components/FooterComponente.vue'
+import SectionTitle from './components/SectionTitle.vue'
+import HabilidadesComponente from './components/HabilidadesComponente.vue'
 </script>
 
 <template>
@@ -17,18 +19,26 @@ import FooterComponente from './components/FooterComponente.vue'
   <DatosPersonales />
   <span id="ip"></span>
   <SectionTitle children="Welcome" />
-  <h1>Bienvenido desde<DataComponente /></h1>
+  <div class="wrap">
+    <h1>Bienvenido desde<DataComponente /></h1>
+  </div>
   <span id="Education"></span>
-  <SectionTitle children="Educacion" />
-  <h2>Educacion-Cursos</h2>
+  <SectionTitle children="Educación" />
   <EducacionComponent />
   <span id="proyects"></span>
   <SectionTitle children="Proyectos" />
-  <h2>Proyectos</h2>
+
   <ProyectosComponente />
-  <section id="habilidades"><h2>Habilidades</h2></section>
-  <section id="intereses"><h2>intereses</h2></section>
+
+  <span id="hablidades"></span>
+  <SectionTitle children="Habilidades" />
+  <HabilidadesComponente />
+  <section id="intereses"><h2>Intereses</h2></section>
   <FooterComponente />
 </template>
 
-<style scoped></style>
+<style scoped>
+.wrap {
+  text-align: center;
+}
+</style>
